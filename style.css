@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c5e4e7;
+}
+
+.main-container {
+  max-width: 1440px;
+  width:100%;
+  max-height: 4000px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.title-area {
+  max-width: 2000px;
+  width: 100px;
+  max-height: 4000px;
+  height: 100px;
+  margin: 0 0 40px;
+ 
+}
+
+.main-box {
+  max-width: 900px;
+  width: 100%;
+  max-height: 4000px;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+
+.left-box {
+  max-width: 400px;
+  width: 100%;
+  max-height: 4000px;
+  height: auto;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.bill-box,
+.tip-box,
+.people-box {
+  
+  width: 100%;
+  max-height: 4000px;
+  height: auto;
+  flex-grow: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 0 3px;
+}
+
+.label
+ {
+  width: 100%;
+  max-height: 28px;
+  height: 23px;
+  margin: auto;
+}
+
+.input {
+  height:35px;
+  width: 100%;
+  margin:  auto;
+}
+
+input[type="text"]{
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    background-color: #f3f8fb;
+    border: none;
+   
+}
+
+ .bill-box .input input{
+  background-image: url("images/icon-dollar.svg") ;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+
+.people-box .input input{
+  background-image: url("images/icon-person.svg") ;
+  background-repeat: no-repeat;
+  text-align: right;
+  
+}
+
+
+.tip-box {
+  height:auto;
+}
+.button-area {
+  width: 100%;
+  max-height: 1000px;
+  height: auto;
+  margin: 3px auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button{
+    width:120px;
+    height: 40px;
+    margin: 10px 5px;
+    
+}
+.button button{
+    height: 100%;
+    width: 100%;
+    background-color: #00474b;
+    color: white;
+    border-radius: 15px;
+  
+}
+
+button:hover{
+  background-color: #26c2ad;
+  color: black;
+  border: none;  
+}
+button::after{
+  content: "";
+  background-color: #26c2ad;
+  color: black;
+}
+button:active{
+  background-color: #26c2ad;
+  color: black;
+}
+
+
+.right-box {
+  max-width: 400px;
+  width: 100%;
+  max-height: 3300px;
+  height: auto;
+  background-color: #00474b;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.total-box {
+  width: 100%;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.t-box1,
+.t-box2
+ {
+  width: 100%;
+  height:80px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  padding: 10px;
+
+}
+
+.label-t{
+    width: 25%;
+    height: 100%;
+    margin: 5px;
+    color: honeydew;
+}
+.out-box{
+    width: 70%;
+    height: 100%;
+    margin: 5px;
+}
+
+
+
+.total-button {
+  width: 320px;
+  height: 40px;
+  
+}
+.total-button button{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #26c2ad;
+
+}
